@@ -9,6 +9,7 @@
 *.dylib
 
 # Executables
+./builds/
 *.exe
 
 # Metadata
