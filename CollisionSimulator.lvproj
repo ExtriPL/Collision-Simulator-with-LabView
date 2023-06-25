@@ -14,6 +14,7 @@
 		<Item Name="Project" Type="Folder" URL="../Project">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Program icon.ico" Type="Document" URL="../Program icon.ico"/>
 		<Item Name="Program.vi" Type="VI" URL="../Program.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -43,27 +44,35 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/CollisionSimulator</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A17F023E-0411-43E1-A877-4940DBEF82AA}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CollisionSimulator.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CollisionSimulator/CollisionSimulator.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/NI_AB_PROJECTNAME/CollisionSimulator.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/CollisionSimulator/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BFCB2A5-C6EB-4F0E-AD58-353042BF2B50}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Program icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{286983CF-6BC4-4F1F-A556-681D552215CB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Program.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Project</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Politechnika Wroclawska</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">CollisionSimulator</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CollisionSimulator by Jakub Boniecki</Property>
 				<Property Name="TgtF_internalName" Type="Str">CollisionSimulator</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Politechnika Wroclawska</Property>
 				<Property Name="TgtF_productName" Type="Str">CollisionSimulator</Property>
