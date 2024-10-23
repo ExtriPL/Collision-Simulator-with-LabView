@@ -2,6 +2,10 @@
 This project is made as a final project for LabView course at Wrocław University of Science and Technology. It's consists of simple physics engine and four demonstrations. Physics included in simulations restricts only to gravity and collisions between circle and rectangle shapes
 
 ## Demonstrations
+### Vieo presentation
+
+![Video demonstration of a whole project](Images/demonstration.mp4)
+
 ### Ideal Gas
 It is a gas simulation, in which particles interact with each other and with walls of the container. We can control following parameters:
 1. Object amount - number of objects simulated simultaneously. Supported values range from 0 to 500.
@@ -41,3 +45,7 @@ Simple pool simulation. We can control:
 3. Color - color of the left ball
 
 ![Screenshot of pool simulations](Images/pool.png)
+
+## How to run
+
+If you want to run this project on your own machine, you need to install LabView Runtime. It has free [community edition](https://www.ni.com/en/support/downloads/software-products/download.labview.html#544128) although you need to register to their website.
